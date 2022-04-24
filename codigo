@@ -1,0 +1,17 @@
+npm init -y
+npm i express mysql express-handlebars express-myconnection express-session body-parser nodemon 
+
+npm i express@4.17.3 mysql@2.18.1 express-handlebars@6.0.2 express-myconnection@1.0.4 express-session@1.17.2 body-parser@1.19.2 nodemon@2.0.15
+
+"scripts": {
+    "start": "node src/app.js",
+    "dev":"nodemon src/app.js"
+  }
+
+
+npm i bcrypt dotenv
+
+
+
+
+  
