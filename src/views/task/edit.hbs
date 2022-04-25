@@ -51,14 +51,14 @@
 <div style="justify-items: center; align-items:center;margin:0 10px;">
   <form action="" method="post">
     <div class="mb-3">
-  <label>Titulo de Tarea</label>
-  <input type="text" class="form-control" placeholder="Tarea" name="title" value="{{title}}">
+  <label style="margin: 10px;">Titulo de Tarea</label>
+  <input style="margin:10px; background: #96e7ad; font-size:18px; width:300px;" type="text" style="margin: 10px;" class="form-control" placeholder="Tarea" name="title" value="{{title}}">
 </div>
-<div class="mb-3">
+<div class="mb-3" style="margin: 10px;">
   <label  class="form-label">Descripcion de Tarea</label>
-  <textarea name="description" placeholder="Descripción"  rows="3">{{description}}</textarea>
+  <textarea name="description" placeholder="Descripción" style="border-radius: 10px;color:blueviolet; font-size:20px; background:#96e7ad; width:300px;" rows="3">{{description}}</textarea>
 </div>
-<button type="submit" class="btn btn-outline-info">Send</button>
+<button type="submit" style="margin:0 200px;" class="btn btn-outline-info">Send</button>
 </form>
 </div>
 {{/each}}
